@@ -81,7 +81,7 @@ OPENROUTER_API_KEY=your_key_here
 
 ### 5. Run the App
 ```bash
-uvicorn app:app --reload
+pyhton app.py
 ```
 Then go to: [http://localhost:8000](http://localhost:8000)
 
