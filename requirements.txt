@@ -1,7 +1,8 @@
 langchain
 langchain-community
 langchain-core
-openai
+langchain-openrouter
+openai #If you use open AI API
 requests
 pypdf
 tiktoken
@@ -13,15 +14,16 @@ python-multipart
 PyPDF2
 faiss-cpu
 python-dotenv
-transformers==4.40.2
+transformers
 huggingface_hub #Hugging face CLI login
 protobuf #to use "mistralai/Mistral-7B-Instruct-v0.3" model
 sentencepiece
-sentence-transformers==2.2.2
-accelerate==0.27.2
+sentence-transformers
+accelerate
 torch
 torchvision 
 torchaudio
-
+pydantic==2.7.4
+hf_xet
 
 -e .
